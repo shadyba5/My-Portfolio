@@ -1,0 +1,39 @@
+.gradient-background {
+    background: linear-gradient(300deg ,#EDE8DC, #e7d0cc,#C1CFA1);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+ 
+
+body *{
+    color: #384328;
+}
+
+
+.navbar{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu{
+    color: #C1CFA1;
+    background-color: #EDE8DC  !important;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: inherit !important;
+}
+
+a.link{
+    color: inherit !important;
+}
+a:hover{
+    color: #182308 !important;
+}
